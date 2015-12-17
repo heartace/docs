@@ -24,7 +24,7 @@ Please follow the steps below to find out `UDID` of your device. The screenshot 
 
 **Step 2**: Tap `Get UDID` button and it will switch to system settings page:
 
-![fir no udid](./img/fir_profile_install.png)
+![fir no udid](./img/fir_install_profile.png)
 
 **Step 3**: Tap `Install` button on upper-right corner, the system may ask you to confirm with iPhone password. Input it and then tap `Install`.
 
