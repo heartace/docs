@@ -8,7 +8,7 @@ This mansual will describe how to install internal build of iOS app on your devi
 
 ## What is UDID?
 
-`UDID` is short for **U**nique **D**evice **ID**entifier of an iPhone or iPad. To install the app which is not released to App Store on your device, you have to provide `UDID` to developers first.
+`UDID` is short for **U**nique **D**evice **Id**entifier of an iPhone or iPad. To install the app which is not released to App Store on your device, you have to provide `UDID` to developers first.
 
 After you provide the `UDID`, developers have to embed it to the app, recompile and then upload a new one for installation.
 
