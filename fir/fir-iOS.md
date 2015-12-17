@@ -8,17 +8,29 @@ This mansual will describe how to install internal build of iOS app on your devi
 
 ## What is UDID?
 
-`UDID` is the unique identifier of an iPhone or iPad. To install the app from fir on your device, you havel
+`UDID` is short for **U**nique **D**evice **ID**entifier of an iPhone or iPad. To install the app which is not released to App Store on your device, you have to provide `UDID` to developers first.
+
+After you provide the `UDID`, developers have to embed it to the app, recompile and then upload a new one for installing.
+
+Without corresponding `UDID` embedded, a device has no permission to install that app.
 
 ## Install profile and get UDID
 
-Open [fir.im](http://fir.im/) in `Safari` app on your `iPhone`.
+**Step 1**: Open [http://fir.im/udid](http://fir.im/udid) in `Safari` app on your `iPhone`. If you haven't used it before, the page may look like this:
 
-Tap `Get UDID` button and it will switch to system settings page.
+![fir no udid](./img/fir_no_udid.png)
 
-Tap `Install` button on upper-right corner and accept.
+**Step 2**: Tap `Get UDID` button and it will switch to system settings page:
 
-It will switch back to `Safari` and if everything works well you'll see:
+![fir no udid](./img/fir_profile_install.png)
+
+**Step 3**: Tap `Install` button on upper-right corner, the system may ask you to confirm with iPhone password. Input it and then tap `Install`.
+
+It will switch back to `Safari` and if everything works well you will see:
+
+![fir no udid](./img/fir_had_udid.png)
+
+In the screenshot above, that long alphanumeric text in red border is the `UDID` we need.
 
 ## Send UDID
 
