@@ -18,7 +18,7 @@ Without corresponding `UDID` embedded, a device has no permission to install suc
 
 Please follow the steps below to find out `UDID` of your device. The screenshot are captured on English version of fir, under iOS 9. The details may be slightly varied on your device.
 
-**Step 1**: Open [http://fir.im/udid](http://fir.im/udid) in `Safari` app on your `iPhone`. If you haven't used it before, the page may look like this:
+**Step 1**: Open [https://fir.im/udid](https://fir.im/udid) in `Safari` app on your `iPhone`. If you haven't used it before, the page may look like this:
 
 ![fir no udid](./img/fir_no_udid.png)
 
@@ -36,11 +36,13 @@ In the screenshot above, the long alphanumeric text is the `UDID` we need.
 
 ## Send UDID
 
-Simply copyTap `Send UDID` button and send it to the developer team.
+When the previous steps are finished smoothly, you could always open [https://fir.im/udid](https://fir.im/udid) to view your `UDID`.
+
+To pass your `UDID` to developer team, simply tap `Send UDID` button and send it via email.
 
 ## Download and install the app
 
-When the app is uploaded to fir by developers, a short URL like `http://fir.im/ab12` will be generated, and be the permanant link of the app. 
+When the app is uploaded to fir by developers, a short URL like `http://fir.im/ab12` will be generated, and be the permanent link of the app. 
 
 Open that link in your browser, you will see the app page looks like this:
 
@@ -48,6 +50,6 @@ Open that link in your browser, you will see the app page looks like this:
 
 Tap `Download` button and then `Install`. The app will start to be downloaded and installed on your iPhone, just as it is from App Store. You may press home button to find the app icon on your launcher.
 
-## Upgrade
+## Upgrade the app
 
 Everytime the app updated, you could just open the same link and tap `Download` again. The app on your device will be updated accordingly.
