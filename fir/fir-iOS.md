@@ -1,20 +1,22 @@
-# Using fir to install iOS app
+# Using fir to install internal iOS app
 
 This mansual will describe how to install internal build of iOS app on your device.
 
 ## What is fir?
 
-[fir](http://fir.im/) is a web service for in-house app distribution. We'll use it to download and install the testing build internally.
+[fir](http://fir.im/) is a web service for in-house mobile app distribution. We'll use it to download and install the testing build internally.
 
 ## What is UDID?
 
 `UDID` is short for **U**nique **D**evice **ID**entifier of an iPhone or iPad. To install the app which is not released to App Store on your device, you have to provide `UDID` to developers first.
 
-After you provide the `UDID`, developers have to embed it to the app, recompile and then upload a new one for installing.
+After you provide the `UDID`, developers have to embed it to the app, recompile and then upload a new one for installation.
 
-Without corresponding `UDID` embedded, a device has no permission to install that app.
+Without corresponding `UDID` embedded, a device has no permission to install such app.
 
 ## Install profile and get UDID
+
+Please follow the steps below to find out `UDID` of your device. The screenshot are captured on English version of fir, under iOS 9. The details may be slightly varied on your device.
 
 **Step 1**: Open [http://fir.im/udid](http://fir.im/udid) in `Safari` app on your `iPhone`. If you haven't used it before, the page may look like this:
 
@@ -34,7 +36,7 @@ In the screenshot above, that long alphanumeric text in red border is the `UDID`
 
 ## Send UDID
 
-Tap `Send UDID` button and send it to the developer team.
+Simply copyTap `Send UDID` button and send it to the developer team.
 
 ## Download and install the app
 
