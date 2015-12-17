@@ -32,7 +32,7 @@ It will switch back to `Safari` and if everything works well you will see:
 
 ![fir no udid](./img/fir_had_udid.png)
 
-In the screenshot above, that long alphanumeric text in red border is the `UDID` we need.
+In the screenshot above, the long alphanumeric text is the `UDID` we need.
 
 ## Send UDID
 
@@ -42,6 +42,12 @@ Simply copyTap `Send UDID` button and send it to the developer team.
 
 When the app is uploaded to fir by developers, a short URL like `http://fir.im/ab12` will be generated, and be the permanant link of the app. 
 
-Open that link in `Safari`, tap `Download` button and then `OK`. The app will start to be downloaded and installed on your iPhone, just as it is from App Store.
+Open that link in your browser, you will see the app page looks like this:
 
-Everytime the app updated, you could just open the same link and perform the actions as before. The app on your device will be updated.
+![fir no udid](./img/fir_app_sample.png)
+
+Tap `Download` button and then `Install`. The app will start to be downloaded and installed on your iPhone, just as it is from App Store. You may press home button to find the app icon on your launcher.
+
+## Upgrade
+
+Everytime the app updated, you could just open the same link and tap `Download` again. The app on your device will be updated accordingly.
