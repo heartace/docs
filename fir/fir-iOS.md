@@ -12,11 +12,11 @@ This mansual will describe how to install internal build of iOS app on your devi
 
 After you provide the `UDID`, developers have to embed it to the app, recompile and then upload a new one for installation.
 
-Without corresponding `UDID` embedded, a device has no permission to install such app.
+Without corresponding `UDID` embedded, a device has no permission to install the internal build of an app.
 
 ## Install profile and get UDID
 
-Please follow the steps below to find out `UDID` of your device. The screenshot are captured on English version of fir, under iOS 9. The details may be slightly varied on your device.
+Please follow the steps below to find out `UDID` of your device. The screenshot are captured on English version of fir, under iOS 9. The details may vary slightly on your device.
 
 **Step 1**: Open [https://fir.im/udid](https://fir.im/udid) in `Safari` app on your `iPhone`. If you haven't used it before, the page may look like this:
 
